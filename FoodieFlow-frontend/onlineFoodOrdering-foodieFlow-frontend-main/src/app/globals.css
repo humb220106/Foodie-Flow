@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+
+:root {
+  --brand: #ff4d00;
+  --bg: #ffffff;
+  --bg-soft: #f4f4f4;
+  --text: #111111;
+  --muted: #6b7280;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container-pad {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

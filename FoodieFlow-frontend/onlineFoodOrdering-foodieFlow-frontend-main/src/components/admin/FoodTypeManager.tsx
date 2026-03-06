@@ -1,0 +1,1 @@
+// Food type manager
